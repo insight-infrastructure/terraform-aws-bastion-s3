@@ -1,0 +1,29 @@
+#  Local .terraform directories
+**/.terraform/*
+
+terraform.tfvars
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+#*.tfvars
+
+# Project specific gitignore items from ICON project
+.idea/
+_old/
+.pytest_cache
+*.tfstate/
+*.tfstate.backup
+*.tfplan
+.terragrunt-cache/
+.terraform/
+
+tmp/
+
+ansible.sh
+ansible.cfg
+ssh.cfg
+
+_wip
